@@ -1,7 +1,7 @@
 
 import 'package:test/test.dart';
 
-import 'package:dart-library-package/math.dart' show add;
+import 'package:dart_library_package/math.dart' show add;
 
 void main() {
   test('math add', () {

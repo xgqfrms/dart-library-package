@@ -1,4 +1,5 @@
-name: dart-library-package
+name: dart_library_package
+# name: dart-library-package
 description: A dart-library-package for Flutter application.
 
 homepage: https://github.com/xgqfrms/dart-library-package

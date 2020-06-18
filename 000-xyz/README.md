@@ -1,4 +1,4 @@
-# dart-library-package
+# dart_library_package
 
 > The Dart ecosystem uses packages to share software such as libraries and tools.
 
@@ -86,9 +86,9 @@ $ touch add_test.dart subtract_test.dart multiply_test.dart divide_test.dart
 ```dart
 import 'package:utilities/utilities.dart';
 
-// import 'package:dart-library-package/lib/math.dart';
+// import 'package:dart_library_package/lib/math.dart';
 // no need lib
-import 'package:dart-library-package/math.dart';
+import 'package:dart_library_package/math.dart';
 
 
 ```
@@ -229,3 +229,65 @@ https://github.com/dart-lang/shelf
 https://github.com/dart-lang/dartdoc/issues/1082
 
 
+## 分发开源库
+
+https://pub.dev/
+
+https://dart.dev/tools/pub/cmd/pub-lish
+
+https://dart.dev/tools/pub/publishing
+
+
+如果您的库是开源的，我们建议在pub.dev站点上共享它。
+
+要发布或更新库，请使用pub publish，它会上传您的软件包并创建或更新其页面。
+
+例如，请参阅架子包装页面。 有关如何准备要发布的软件包的详细信息，请参见发布软件包。
+
+https://pub.dev/packages/shelf
+
+
+pub.dev网站不仅托管您的程序包，而且还生成并托管您程序包的API参考文档。
+
+软件包的“关于”框中提供了最新生成的文档的链接； 例如，请参阅书架包装的API文档。
+
+程序包页面的“版本”标签中的指向先前版本文档的链接。
+
+
+https://pub.dev/documentation/shelf
+
+
+为确保您包的API文档在pub.dev网站上看起来不错，请按照以下步骤操作：
+
+
+在发布软件包之前，请运行dartdoc工具，以确保您的文档生成成功并且外观符合预期。
+
+发布软件包后，请检查“版本”选项卡，以确保文档已成功生成。
+
+如果文档根本没有生成，请在“版本”标签中单击“失败”以查看dartdoc输出。
+
+
+https://github.com/dart-lang/dartdoc#dartdoc
+
+
+```sh
+➜  test git:(master) ✗ dartdoc
+Documenting dart-library-package...
+Resolving dependencies...
+
+dartdoc failed: pub get failed: Resolving dependencies...
+
+Error on line 1, column 7 of pubspec.yaml: "name" field must be a valid Dart identifier.
+  ╷
+1 │ name: dart-library-package
+
+```
+
+## _ 下划线
+
+> `dart_library_package`
+
+```sh
+$ dartdoc
+
+```

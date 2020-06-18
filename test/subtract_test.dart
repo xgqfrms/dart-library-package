@@ -1,7 +1,7 @@
 
 import 'package:test/test.dart';
 
-import 'package:dart-library-package/math.dart' show subtract;
+import 'package:dart_library_package/math.dart' show subtract;
 
 void main() {
   test('math subtract', () {
