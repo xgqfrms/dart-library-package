@@ -26,3 +26,59 @@ Runes	符号，Unicode字符
 Symbole	标示
 
 https://www.jianshu.com/p/05daef045e8d
+
+
+## var / date type
+
+```dart
+
+
+var name = 'xgqfrms';
+
+String name = 'xgqfrms';
+
+// var String name = 'xgqfrms';
+// Variables can't be declared using both 'var' and a type name. (var_and_type)
+
+
+```
+
+## final / const
+
+区别: final 初始化必须先赋值，不然会报错; const 声明初始化时必须赋值，不然会报错;
+
+
+final 跟 Java 里的 final 一样，表示一个运行时常量（在程序运行的时候赋值，赋值后值不再改变）。const 表示一个编译时常量，在程序编译的时候它的值就确定了。
+
+
+```dart
+void main() {
+  // int / double
+  final num age = 18;
+}
+
+void main() {
+  final age = 18;
+}
+
+
+const String name = 'xgqfrms';
+
+const name = 'xgqfrms';
+
+```
+
+
+https://juejin.im/tag/Dart
+
+https://juejin.im/tag/Flutter
+
+
+## Dart static, final, const 区别 ？
+
+https://juejin.im/post/5d396a03f265da1b68370110
+
+
+https://juejin.im/post/5bcc8527f265da0aff17729a
+
+https://jarontai.github.io/dart-souls/language/basics.html
