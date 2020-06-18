@@ -291,3 +291,29 @@ Error on line 1, column 7 of pubspec.yaml: "name" field must be a valid Dart ide
 $ dartdoc
 
 ```
+
+
+https://dart.cn/guides/libraries/create-library-packages
+
+
+## pub
+
+```sh
+# $ pub publish [--dry-run] [--force] [--server <url>]
+
+$ pub publish
+
+
+# A private package cannot be published.
+# You can enable this by changing the "publish_to" field in your pubspec.
+
+```
+
+
+https://dart.cn/tools/pub/cmd/pub-lish
+
+
+https://dart.cn/tools/pub/publishing#what-files-are-published
+
+
+https://pub.flutter-io.cn/
