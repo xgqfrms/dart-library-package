@@ -6,6 +6,7 @@ https://dart-library-package.xgqfrms.xyz/
 
 ## pub publish bug
 
+https://github.com/xgqfrms/dart-library-package/issues/4
 
 ```sh
 $ flutter doctor -v
