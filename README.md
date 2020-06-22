@@ -29,3 +29,19 @@ $ curl xgqfrms.xyz
 # html string
 
 ```
+
+# pub upload packages
+
+https://dart.dev/tools/pub/publishing
+
+https://dart.dev/tools/pub/cmd/pub-lish
+
+https://dart.dev/tools/pub/cmd/pub-uploader
+
+https://dart.dev/tools/pub/verified-publishers
+
+
+```sh
+$ pub uploader
+
+```
