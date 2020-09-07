@@ -2,9 +2,9 @@ name: Publish Dart Package
 
 on:
   push:
-    branches: [ master ]
+    branches: [ pub ]
   pull_request:
-    branches: [ master ]
+    branches: [ pub ]
 
 jobs:
   build:
@@ -12,11 +12,13 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image:  google/dart:latest
+      image: google/dart:latest
 
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
       run: pub get
-    - name: Run tests
-      run: pub run test
+    # - name: Run tests
+      # run: pub run test
+    - name: pub publish 🎯
+      run: pub publish
