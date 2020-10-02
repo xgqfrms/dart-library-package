@@ -4,46 +4,17 @@
 
 https://dart-library-package.xgqfrms.xyz/
 
-## pub publish bug
+## usage
 
-https://github.com/xgqfrms/dart-library-package/issues/4
+```dart
+// import 'dart_library_package';
 
-```sh
-$ flutter doctor -v
-
-$ flutter packages pub publish --dry-run
-
-$ pub publish --dry-run
-# Package has 0 warnings.
-
-$ pub publish
+import 'package:dart_library_package/math.dart' show add;
+// import 'math_math';
+// import 'math_html';
+// import 'math_io';
 
 ```
 
-```sh
-# 全局 VPN
-$ curl google.com
-# curl: (7) Failed to connect to www.google.com port 80: Operation timed out
+https://pub.dev/packages/dart_library_package/score
 
-$ curl xgqfrms.xyz
-# html string
-
-```
-
-# pub upload packages
-
-https://dart.dev/tools/pub/publishing
-
-https://dart.dev/tools/pub/cmd/pub-lish
-
-https://dart.dev/tools/pub/cmd/pub-uploader
-
-https://dart.dev/tools/pub/verified-publishers
-
-
-```sh
-$ pub uploader
-
-```
-
-https://www.cnblogs.com/xgqfrms/p/13185708.html
