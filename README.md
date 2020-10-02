@@ -8,11 +8,14 @@ https://dart-library-package.xgqfrms.xyz/
 
 ```dart
 // import 'dart_library_package';
-
-import 'package:dart_library_package/math.dart' show add;
 // import 'math_math';
 // import 'math_html';
 // import 'math_io';
+
+// import 'package:dart_library_package/math.dart' show add;
+import 'package:dart_library_package/math.dart';
+import 'package:dart_library_package/math_io.dart';
+import 'package:dart_library_package/math_html.dart';
 
 ```
 
