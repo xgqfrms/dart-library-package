@@ -1,6 +1,6 @@
 name: dart_library_package
 # name: dart-library-package
-description: A dart-library-package for Flutter application.
+description: dart-library-package is A math utils dart library package for building Flutter application.
 
 homepage: https://github.com/xgqfrms/dart-library-package
 
@@ -19,7 +19,7 @@ homepage: https://github.com/xgqfrms/dart-library-package
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.1
+version: 1.0.3
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
